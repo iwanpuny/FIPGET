@@ -1,0 +1,304 @@
+
+/* booking */
+.navbar{
+    width: 1440px;
+    height: 70px;
+    background: #010101;
+}
+
+.nav-brand {
+    margin-left: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+
+    color: #FFFFFF;
+
+}
+.nav-brand:hover{
+    text-decoration: none;
+    outline: none;
+    color: #FFFFFF;
+}
+/* tutup navbar */
+
+.booking{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 145px;
+}
+
+
+body{
+    background-color: #010101;
+}
+
+/* booking */
+.book-fill{
+    width: 696px;
+    padding-bottom: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 50px;
+    padding-top: 55px;
+}
+
+.produk{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+}
+.produk span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+.grs{
+    margin-top: 20px !important;
+    margin: 0;
+    width: 594px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.bordercolor{
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    width: 224px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1.5px solid #C2C2C2;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+.bordercolor:hover{
+    border: 1.5px solid #1B82E0;
+    color: #010101;
+    text-decoration: none;
+}
+.bordercolor:checked{
+    border: 1.5px solid #1B82E0;
+}
+
+
+.color h5{
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.rom{
+    box-sizing: border-box;
+    width: 161px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+
+}
+.rom:hover{
+    border: 1.5px solid #1B82E0;
+    color: #010101;
+    text-decoration: none;
+}
+
+.ram h5{
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.address h5{
+    margin-top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+.address p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9A9A9A;
+}
+
+.alamatatas{
+    box-sizing: border-box;
+    width: 170px !important; 
+    height: 44px !important;
+    border: 1px solid #9A9A9A;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.dtil-alamat{
+    box-sizing: border-box;
+    width: 363px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #9A9A9A;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+    padding-left: 10px;
+}
+.dtil-alamat::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.postal{
+    box-sizing: border-box;
+    width: 161px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #9A9A9A;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+    padding-left: 10px;
+}
+.postal::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.nama{
+    box-sizing: border-box;
+    width: 290px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #9A9A9A;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+    padding-left: 10px;
+}
+.nama::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.phone{
+    box-sizing: border-box;
+    width: 240px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #9A9A9A;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+    padding-left: 10px;
+}
+.phone::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.payment h5{
+    margin-top: 24px;
+    margin-bottom: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.pay{
+    box-sizing: border-box;
+    width: 242px !important;
+    height: 44px !important;
+
+    border: 1px solid #9A9A9A;
+    border-radius: 6px;
+}
+
+.back{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.back:hover{
+    color: #000000;
+}
+.btn-submit{
+    margin-left: 248px;
+    width: 169px;
+    height: 40px;
+    background: #010101;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: all 0.2s ease;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-submit:hover{
+    color: white;
+    box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+/* tutup booking */

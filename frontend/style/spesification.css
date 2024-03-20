@@ -1,0 +1,280 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Navbar */
+.navbar{
+    background-color: #010101;
+    width: auto;
+    height: 70px;
+}
+
+.nav-brand {
+    margin-left: 70px;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+
+    color: #FFFFFF;
+
+}
+
+.nav-brand:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a {
+    margin-left: 20px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FFFFFF;
+}
+
+.nav-item1 a {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FFFFFF;
+}
+
+.search{
+    padding-left: 5px;
+    margin-left: 17px;
+    background: #323232;
+    height: 35px;
+    display: flex;
+    border-radius: 9px;
+    margin-left: 20px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FFFFFF;
+}
+
+form input{
+    width: 180px;
+    border-radius: 9px;
+    background: #323232;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: white;
+}
+
+.fa-search{
+    align-self: center;
+    padding: 2px 3px;
+    color: #FFFFFF;
+    size: 20px;
+}
+
+.btn-dark {
+    margin-right: 70px;
+    width: 169px;
+    height: 40px;
+    background: linear-gradient(170.91deg, #323232 6.9%, rgba(24, 24, 24, 0) 202.58%);
+    filter: drop-shadow(0px 4px 9px rgba(255, 255, 255, 0.12));
+    border-radius: 40px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-dark a{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    color: #FFFFFF;
+}
+.btn-dark a:hover{
+    color: #FFFFFF;
+}
+.btn-dark:hover{
+    width: 180px;
+}
+/* Tutup Navbar */
+
+
+/* bar */
+.bar{
+    padding-left: 100px;
+    padding-right: 120px;
+    width: auto;
+    height: 50px;
+    background: #CAC8C8;
+    border-radius: 0px 0px 12px 12px;
+}
+.phone{
+    padding-top: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #000000;
+
+}
+.bar-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+    text-decoration: none;
+    color: #000000;
+}
+.bar-link:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* tutup bar */
+
+
+
+/* spesifikasi */
+.bg-img{
+    background: #1A1A1A;
+}
+.spesification{
+    width: auto;
+    background: #1A1A1A;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+
+.grs{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1260px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+    width: 274px;
+}
+.deskripsi{
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFfFFF;
+    left: 180px;
+}
+.deskripsi span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #E6E6E6;
+}
+/* tutup spesifikasi */
+
+
+/* footer */
+footer{
+    padding-top: 52px;
+    width: auto;
+    height: 332px;
+    background: #010101;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.footer-item{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
+.footer-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+.footer-link:hover{
+    color: #FFFFFF;
+
+}
+.footer-brand{
+    width: 113px;
+    height: 214px;
+}
+.brando-top{
+    margin-left: 140px;
+}
+
+.support{
+    margin-left: 128px;
+    width: 113px;
+    height: 214px;
+}
+.aboutus{
+    margin-left: 130px;
+    height: 214px;
+}
+.follow{
+    margin-left: 160px;
+    height: 214px;
+}
+.copyright{
+    box-sizing: border-box;
+    width: auto;
+    height: 46px;
+    background: #010101;
+    border-top: 1px solid #FFFFFF;
+}
+.copyright a{
+    color: white;
+}
+.copyright a:hover{
+    color: white;
+}
+.copyright h5{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
+
+
+
+/* tutup footer */

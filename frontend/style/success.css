@@ -1,0 +1,99 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #010101;
+}
+/* booking */
+.navbar{
+    width: auto;
+    height: 70px;
+    background: #010101;
+}
+
+.nav-brand {
+    margin-left: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+
+    color: #FFFFFF;
+
+}
+.nav-brand:hover{
+    text-decoration: none;
+    outline: none;
+    color: #FFFFFF;
+}
+/* tutup navbar */
+
+.success{
+    margin-top: 120px;
+    padding-top: 20px;
+    width: 615px;
+    height: 680px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.kata{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+.subkata{
+    margin-top: -15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.btn-submit{
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 220px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    transition: all 0.3s ease;
+    color: #010101;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn-submit::before{
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 63px;
+    background-color: #68EFFA;
+    top: 50%;
+    transform: skewX(10deg) translate(-150%,-50%);
+    transition: all 0.5s ease;
+}
+.btn-submit:hover{
+    box-shadow: -3px -3px 0px #000000;
+    width: 320px;
+}
+.btn-submit:hover::before{
+    transform: skewX(30deg) translate(150%,-50%);
+    transition-delay: 0.1s;
+}
